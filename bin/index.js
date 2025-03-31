@@ -1,5 +1,5 @@
+#!/usr/bin/env node
 // bin/index.js
-// #!/usr/bin/env node
 import { getGitDiff } from "../src/core/gitUtils.js";
 import { generateCommitMessage } from "../src/core/openAIService.js"
 import { formatCommitMessage } from "../src/core/commitFormatter.js";
